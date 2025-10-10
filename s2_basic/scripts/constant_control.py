@@ -15,7 +15,7 @@ class Heartbeat(Node):
 
         # create publisher with: self.create_publisher(<msg type>, <topic>, <qos>)
         self.hb_pub = self.create_publisher(Twist, "/cmd_vel", 10)
-        
+
         # create a timer with: self.create_timer(<second>, <callback>)
         self.hb_timer = self.create_timer(1.0, self.hb_callback)
 
@@ -27,10 +27,9 @@ class Heartbeat(Node):
         Heartbeat callback triggered by the timer
         """
         # construct heartbeat message
-		
+
         msg = Twist()
         msg.linear.x = 5.0
-        msg.angular.z = 1.0
 
         # publish heartbeat counter
         self.hb_pub.publish(msg)
