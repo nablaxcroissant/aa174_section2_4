@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/home/aa274/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aa274/autonomy_ws/src/autonomy_repo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aa274/autonomy_ws/install/autonomy_repo
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.178s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.405s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.499s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.577s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.577s] -- Added test 'lint_cmake' to check CMake code style
+[0.578s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.579s] -- Added test 'xmllint' to check XML markup files
+[0.581s] -- Configuring done
+[0.583s] -- Generating done
+[0.583s] [33mCMake Warning:
+[0.583s]   Manually-specified variables were not used by the project:
+[0.584s] 
+[0.584s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[0.584s] 
+[0.584s] [0m
+[0.584s] -- Build files have been written to: /home/aa274/autonomy_ws/build/autonomy_repo
+[0.587s] Invoked command in '/home/aa274/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aa274/autonomy_ws/src/autonomy_repo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aa274/autonomy_ws/install/autonomy_repo
+[0.589s] Invoking command in '/home/aa274/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/build/autonomy_repo -- -j8 -l8
+[0.622s] Invoked command in '/home/aa274/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/build/autonomy_repo -- -j8 -l8
+[0.649s] Invoking command in '/home/aa274/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/build/autonomy_repo
+[0.656s] -- Install configuration: "RelWithDebInfo"
+[0.656s] -- Execute custom install script
+[0.657s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/heading_controller.py
+[0.664s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/p3_plot.py
+[0.672s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/navigator.py
+[0.680s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/heading_control.launch.py
+[0.688s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/navigator.launch.py
+[0.696s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz
+[0.703s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/package_run_dependencies/autonomy_repo
+[0.711s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/parent_prefix_path/autonomy_repo
+[0.719s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.sh
+[0.727s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.dsv
+[0.734s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.sh
+[0.742s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.dsv
+[0.749s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.bash
+[0.756s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.sh
+[0.763s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.zsh
+[0.771s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.dsv
+[0.778s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.dsv
+[0.785s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/packages/autonomy_repo
+[0.793s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig.cmake
+[0.801s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig-version.cmake
+[0.809s] -- Symlinking: /home/aa274/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.xml
+[0.818s] Invoked command in '/home/aa274/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/build/autonomy_repo

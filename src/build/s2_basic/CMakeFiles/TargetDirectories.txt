@@ -1,0 +1,9 @@
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/uninstall.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/s2_basic_uninstall.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/test.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/edit_cache.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/rebuild_cache.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/list_install_components.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/install.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/install/local.dir
+/home/clauer/autonomy_ws/src/build/s2_basic/CMakeFiles/install/strip.dir
