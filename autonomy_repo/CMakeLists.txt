@@ -14,6 +14,11 @@ install(PROGRAMS
     DESTINATION lib/${PROJECT_NAME}
 )
 
+install(PROGRAMS
+    scripts/perception_controller.py
+    DESTINATION lib/${PROJECT_NAME}
+)
+
 install(DIRECTORY launch rviz
         DESTINATION share/${PROJECT_NAME})
 
