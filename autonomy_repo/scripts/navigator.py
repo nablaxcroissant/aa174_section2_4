@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import rclpy                    # ROS2 client library
 from rclpy.node import Node     # ROS2 node baseclass
 from asl_tb3_lib.navigation import BaseNavigator, TrajectoryPlan
